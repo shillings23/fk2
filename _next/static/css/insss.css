@@ -1,0 +1,41 @@
+/* Mobile-specific styles for PanelCard */
+
+@media only screen and (max-width: 1000px) {
+    .css-me85mp {
+        width: 80%;
+        /* Makes the div narrower */
+        padding: 0.4rem;
+        /* Reduces padding for a tighter look */
+        font-size: 0.80rem;
+        /* Reduces font size */
+    }
+    .css-1rwx5q6 {
+        flex-direction: column;
+        /* Stacks contents vertically */
+        gap: 0.4rem;
+        /* Reduces spacing between elements */
+    }
+}
+
+
+/* Extra-small screens (like very small smartphones) */
+
+@media only screen and (max-width: 1000px) {
+    .css-me85mp {
+        width: 100%;
+        /* Expands slightly to fit smaller screens */
+        padding: 0.5rem;
+        /* Minimal padding */
+        font-size: 70rem;
+        /* Further font size reduction */
+    }
+    .css-1rwx5q6 {
+        gap: 0.5rem;
+        /* Smaller gap for ultra-compact layout */
+    }
+    .css-me85mp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
